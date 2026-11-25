@@ -21,3 +21,10 @@ package com.example.reply.ui.utils
 enum class ReplyNavigationType {
     BOTTOM_NAVIGATION, NAVIGATION_RAIL, PERMANENT_NAVIGATION_DRAWER
 }
+
+/**
+ * Different type of content layout supported by app depending on size.
+ */
+enum class ReplyContentType {
+    LIST_ONLY, LIST_AND_DETAIL
+}
