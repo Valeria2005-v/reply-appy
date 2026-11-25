@@ -23,6 +23,7 @@ import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.test.ext.junit.rules.ActivityScenarioRule
+import com.example.reply.test.onNodeWithTagForStringId
 
 /**
  * Finds a semantics node with the given string resource id.
