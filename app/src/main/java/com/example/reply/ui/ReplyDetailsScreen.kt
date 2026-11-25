@@ -53,6 +53,7 @@ import androidx.compose.ui.res.stringResource
 import com.example.reply.R
 import com.example.reply.data.Email
 import com.example.reply.data.MailboxType
+import androidx.compose.ui.platform.testTag
 
 @Composable
 fun ReplyDetailsScreen(
@@ -68,6 +69,7 @@ fun ReplyDetailsScreen(
         LazyColumn(
             contentPadding = WindowInsets.safeDrawing.asPaddingValues(),
             modifier = Modifier
+                .testTag(stringResource(R.string.details_screen))
                 .fillMaxSize()
                 .background(color = MaterialTheme.colorScheme.inverseOnSurface)
         ) {
