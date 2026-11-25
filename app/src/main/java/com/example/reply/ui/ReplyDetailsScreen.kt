@@ -54,6 +54,7 @@ import com.example.reply.R
 import com.example.reply.data.Email
 import com.example.reply.data.MailboxType
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.platform.testTag
 
 @Composable
 fun ReplyDetailsScreen(
